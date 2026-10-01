@@ -6,6 +6,7 @@ export default defineConfig({
   fullyParallel:true,
   retries:2,
   timeout:60000,
+  reporter: 'html',
 
   use: {
     baseURL: 'https://playwrightlab.github.io/',
